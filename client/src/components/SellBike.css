@@ -1,0 +1,40 @@
+.sell-bike {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+}
+
+.sell-bike h2 {
+  text-align: center;
+  color: #1e3c72;
+}
+
+.sell-bike form {
+  display: flex;
+  flex-direction: column;
+}
+
+.sell-bike input,
+.sell-bike textarea {
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.sell-bike button {
+  background: #1e3c72;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+.sell-bike button:hover {
+  background: #2a5298;
+}

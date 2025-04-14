@@ -1,0 +1,94 @@
+/* .bike-details {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bike-details img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .bike-details h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .bike-details p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+   */
+
+   .bike-details {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    background: #f5f7fa;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bike-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .bike-info {
+    max-width: 500px;
+  }
+  
+  .bike-info h1 {
+    font-size: 36px;
+    color: #1e3a8a;
+  }
+  
+  .bike-info .description {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  .specs {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .specs li {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  .buy-btn, .rent-btn {
+    margin-top: 20px;
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .buy-btn {
+    background: #10b981;
+    color: white;
+  }
+  
+  .rent-btn {
+    background: #f59e0b;
+    color: white;
+  }
+  
+  .bike-loading {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 100px;
+  }
+  

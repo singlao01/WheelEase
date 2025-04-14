@@ -1,0 +1,24 @@
+.bike-list {
+  padding: 40px;
+  background: #f9fafb;
+  text-align: center;
+}
+
+.bike-list h2 {
+  color: #1e3c72;
+}
+
+.bike-list ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.bike-list li {
+  background: white;
+  margin: 10px auto;
+  padding: 15px;
+  max-width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.1);
+}
